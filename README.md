@@ -7,7 +7,7 @@
 数据方式可看图 数据储存方式.png
 
 
-数据范例获取方式：
-
+数据范例请下载：
+https://cloud.tsinghua.edu.cn/f/2cc4bf65653d44038dbb/?dl=1
 
 by Kent 家瀚
