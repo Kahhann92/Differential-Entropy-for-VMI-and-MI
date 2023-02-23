@@ -34,7 +34,7 @@ opts = parser.parse_args()
 # WholeSet = pre.readData(rootdir=opts.datadir,base_line_l = 1,motor_imag_l = 3.5, \
 #     datasetType = 'korean', NotchFilter = True,BandPassFilter = True,l_freq = 0.5, h_freq = 80,BaseLineRemoval = True)
 
-WholeSet = pre.readData(rootdir=opts.datadir,base_line_l = 1,motor_imag_l = 3.5, \
+WholeSet = pre.readData(rootdir=opts.datadir,base_line_l = 0.5,motor_imag_l = 4, \
     datasetType = 'oc', NotchFilter = False,BandPassFilter = False ,l_freq = 0.5, h_freq = 80,BaseLineRemoval = False)
 
 

@@ -118,7 +118,7 @@ def readData(rootdir,base_line_l = 0.5,motor_imag_l = 3, datasetType = 'korean',
             if filename.split('.')[-1] == 'set':
                 
                 path=os.path.join(rootdir, filename)
-                epochs = mne.io.read_epochs_eeglab(path, verbose=False)
+                epochs = mne.io.read_epochs_eeglab(path, verbose=False, uint16_codec='latin1')
 
                 if NotchFilter ==True:
                     # notch filter
